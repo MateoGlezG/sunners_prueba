@@ -1,0 +1,98 @@
+:root{
+
+}
+
+
+body{
+    font-family:"Hiruko Pro Book";
+    background-color: #F0EADD;
+    color: #2D2D2A;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.barra-nav{
+    box-sizing: border-box;
+    width: 100%;
+    height: 8vh;
+    padding-bottom: 70px;
+    border-bottom: 3px solid #2D2D2A; /*Siempre tamaño, tipo, color*/
+    position: fixed;
+    background-color: #F0EADD;
+    z-index: 10;
+}
+
+nav{
+    display:flex;
+    
+}
+
+nav div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 1.7vw;
+    padding-right: 4vw;
+    border-top: 0;
+    padding-top: 0;
+    
+    flex-grow: 1; /*Para que rellene el resto del flex teniendo en cuenta las medidas de la otra caja*/
+
+}
+
+a{
+    text-decoration: none; /*Esto hace que se quiete los efectos que hereda predeterminados como el subrayado*/
+    color: #BB3615;
+
+}
+
+nav label{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    width: 218px;
+    height: 60px;
+    cursor:pointer; /*Se pone la mano para luego configurar el volver al inicio*/
+
+}
+
+/*PORTADA */
+
+.portada{
+    padding-top: 10vh;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#00000015, #00000010, #0000, #F0EADD), url(/multimedia/paneles1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: cover;
+
+}
+
+.portada div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.portada h1{
+    color: #BB3615;
+    font-size: 400%;
+    padding: 0;
+    margin: 0;
+
+}
+
+/*SECCIÓN 1*/
+
+/*SECCIÓN 2*/
+.section2{
+    background-color: #BB3615;
+    color: #F0EADD;
+    border-radius: 10px;
+}
