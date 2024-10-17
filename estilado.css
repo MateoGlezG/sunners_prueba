@@ -148,7 +148,7 @@ a:hover{
     padding-top: 3%;
 }
 
-.boton-planta{
+.botonPlanta{
     background-color: #bb3615;
     color: #F0EADD;
     border-radius: 5px;
@@ -162,7 +162,7 @@ a:hover{
 
 }
 
-.boton-planta:hover{
+.botonPlanta:hover{
     transform: scale(0.95);
 }
 /*Section3*/
@@ -211,14 +211,13 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:15px;
 }
 
 footer div{
     display:flex;
     flex-direction: row;
     align-items: center;
-    gap:10px;
+    justify-content: center;
 }
 
 div h4{
@@ -226,13 +225,25 @@ div h4{
     margin:0;
 }
 
+
 .direction{
     display: flex;
     flex-direction: column;
     justify-content: center;
     color:#000; 
-    gap:2px;
-    padding-top: 10px;
+}
+
+footer div{
+    padding: 0;
+}
+
+div .mail{
+    width:7%;
+    padding-top:4px;
+}
+div .phone{
+    width:10%;
+    padding:0;
 }
 .direction h6{
     padding:0;
