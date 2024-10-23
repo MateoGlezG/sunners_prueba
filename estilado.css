@@ -1,0 +1,375 @@
+body{
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #F0EADD;
+    color:#203031;
+}
+ 
+/*navegacion*/
+.barra-nav nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 3vh;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: #F0EADD;
+
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    gap: 7%;
+    padding-right: 12vh;
+}
+
+label img{
+    width:75px;
+    height: 75px;
+
+}
+
+label img:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: #bb3615;
+    
+}
+
+a:hover{
+    color: #203031;
+    transform: scale(0.9);
+}
+
+/*Portada*/
+/*Por hacer esto solo es una idea*/
+.portada{
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    background-image: linear-gradient(#00000015, #00000010, #0000, #F0EADD), url(/multimedia/paneles1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+.portada div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+
+/*Section-1*/
+/*centrar el titulo h3*/
+.section1{
+    justify-content: center;
+    padding: 12vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.title{
+    color:#bb3615;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.list .list-title{
+    background-color: #bb3615;
+    border-radius: 5px;
+    color:#F0EADD;
+}
+
+.list-title p{
+    padding: 30px;
+    justify-content: center;
+}
+
+.descripcion-lista{
+    list-style-image:url(/multimedia/Sunners\ logo\ simple\ small.png); /*Arreglar esto, poner los marcadores con el logo de sunners*/
+}
+
+/*Section-2*/
+.section2{
+    padding-top: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 div{
+    display: flex;
+    justify-content: space-around;
+    gap:5%;
+    max-width: 90%;
+
+}
+
+.section2 div article{
+    background-color: #bb3615;
+    border-radius: 25px;
+    padding: 25px;
+    width: 300px;
+}
+
+.container1{
+    background-image: url(/multimedia/paneles1.jpg); /*Poner imagen para el fondo*/
+    background-position: center;
+}
+.container2{
+    background-image: url();/*Poner imagenes para el fondo*/
+    background-position:center;
+}
+.container3{
+    background-image: url();/*Poner imagenes para el fondo*/
+    background-position:center;
+}
+
+/*Button*/
+.funcionamiento-planta{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.botonPlanta{
+    background-color: #bb3615;
+    color: #F0EADD;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #203031;
+    width:75%;
+    height:50px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+}
+
+.botonPlanta:hover{
+    transform: scale(0.95);
+}
+/*Section3*/
+
+/*Section-4*/
+.section4{
+    padding-bottom: 5%;
+}
+
+.instalaciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:5vh;
+    
+}
+
+.instalaciones div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5vh;
+}
+
+.types{
+    width: 200px;
+    height: 200px;
+    background-color: #bb3615;
+    color:#F0EADD;
+    border-radius: 10px;
+}
+
+.types:hover{
+    background: linear-gradient(#bb3615, #bb361595, #bb361590,#F0EADD);
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    height: 250px;
+    background-color:#bb361520;
+    color:#bb3615;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div h4{
+    padding:0;
+    margin:0;
+}
+
+
+.direction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#000; 
+}
+
+footer div{
+    padding: 0;
+}
+
+div .mail{
+    width:7%;
+    padding-top:4px;
+}
+div .phone{
+    width:10%;
+    padding:0;
+}
+.direction h6{
+    padding:0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Primer intento de CSS
+
+body{
+    font-family:"Hiruko Pro Book";
+    background-color: #F0EADD;
+    color: #2D2D2A;
+    margin: 0;
+}
+
+/*BARRA DE NAVEGACIÓN
+
+.barra-nav{
+    box-sizing: border-box;
+    width: 100%;
+    height: 8vh;
+    padding-bottom: 70px;
+    border-bottom: 3px solid #2D2D2A; /*Siempre tamaño, tipo, color
+    position: fixed;
+    background-color: #F0EADD;
+    z-index: 10;
+}
+
+nav{
+    display:flex;
+    
+}
+
+nav div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 1.7vw;
+    padding-right: 4vw;
+    border-top: 0;
+    padding-top: 0;
+    
+    flex-grow: 1; /*Para que rellene el resto del flex teniendo en cuenta las medidas de la otra caja
+
+}
+
+a{
+    text-decoration: none; /*Esto hace que se quiete los efectos que hereda predeterminados como el subrayado
+    color: #BB3615;
+
+}
+
+nav label{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    width: 218px;
+    height: 60px;
+    cursor:pointer; /*Se pone la mano para luego configurar el volver al inicio
+
+}
+
+/*PORTADA 
+
+.portada{
+    padding-top: 10vh;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#00000015, #00000010, #0000, #F0EADD), url(/multimedia/paneles1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: cover;
+
+}
+
+.portada div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.portada h1{
+    color: #BB3615;
+    font-size: 400%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/*SECCIÓN 2
+.section2{
+    background-color: #BB3615;
+    color: #F0EADD;
+    border-radius: 10px;
+}
+*/
