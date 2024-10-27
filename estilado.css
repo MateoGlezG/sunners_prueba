@@ -195,20 +195,35 @@ a:hover{
 .section4{
     height:75vh;
     background-color: #bb3615;
+    color:#F0EADD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.section4 ul{
+.section4 h3{
+    padding-left: 12vh;
+}
+
+.section4 div{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-.section4 li{
+.section4 article{
     width:40vh;
     height:25vh;
     background-color: #F0EADD;
+    color:#203031;
     border-radius: 5px;
     list-style:none;
+}
+
+.section4 article img{
+    width: 25%;
 }
 
 /*Footer*/
