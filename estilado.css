@@ -205,26 +205,6 @@ a:hover{
     padding-left: 12vh;
 }
 
-.section4 div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.section4 article{
-    width:40vh;
-    height:25vh;
-    background-color: #F0EADD;
-    color:#203031;
-    border-radius: 5px;
-    list-style:none;
-}
-
-.section4 article img{
-    width: 25%;
-}
 
 /*Footer*/
 footer{
