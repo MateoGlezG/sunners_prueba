@@ -199,12 +199,52 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .section4 h3{
-    padding-left: 12vh;
+    padding-right: 88vh;
 }
 
+.section4 div{
+    width: 80vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3%
+}
+
+.section4 button{
+    background-color:#F0EADD90;
+    border: 0;
+    border-radius: 5px;
+    color: #F0EADD;
+}
+
+.section4 .reseñas{
+    width:60vh;
+    height: 50vh;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.section4 div ul{
+    width: 300%;
+    display: flex;
+    padding: 0;
+}
+
+.section4 div ul li{
+    background-color: #F0EADD;
+    color: #203031;
+    width: 70vh;
+    height: 30vh;
+    list-style: none;
+    border-radius: 10px;
+}
 
 /*Footer*/
 footer{
