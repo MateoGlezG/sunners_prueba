@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(135deg,#bb361590,#bb361580,#f0eadd90), url(/multimedia/paneles1.jpeg);
+    background-position: center;
+    color:#203031;
+}
+
+.div-form{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: #F0EADD;
+    width: 90vh;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+h1{
+    color: #bb3615;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+article input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #203031;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #203031;
+}
+article input::placeholder{
+    color: #20303190;
+    padding-left: 3%;
+}
+
+article select{
+    color: #203031;
+    border-radius: 10px;
+}
+article select option{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article input[type="file"]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+article input[type="file"]::-webkit-file-upload-button{
+    background-color: #bb3615;
+    height: 3vh;
+    color: #F0EADD;
+    border-radius: 10px;
+    border: 0;
+}
+
+.boton{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form button{
+    background-color: #bb3615;
+    color: #F0EADD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8em;
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+    height: 5vh;
+}
+
+.botones{
+    width: 100%;
+    height: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+div button{
+    border-color: #bb3615;
+    border-radius: 10px;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
