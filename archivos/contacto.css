@@ -107,3 +107,7 @@ div button{
     justify-content: center;
     gap: 2%;
 }
+div button:hover{
+    transform: scale(1.05);
+    box-shadow:3px 3px 2px #20303180;
+}

@@ -246,6 +246,24 @@ a:hover{
     border-radius: 10px;
 }
 
+/*Como empezar una instalacion*/
+.section5{
+    padding-bottom: 5vh;
+}
+
+.instalaciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instalaciones article{
+    width: auto;
+    height: 15vh;
+    border-radius: 5px;
+    background-color: #bb3615;
+}
+
 /*Footer*/
 footer{
     width: 100%;
